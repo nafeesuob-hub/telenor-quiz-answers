@@ -1,0 +1,384 @@
+* {
+  box-sizing: border-box;
+}
+
+
+body {
+  margin: 0;
+
+  font-family:
+    Arial,
+    Helvetica,
+    sans-serif;
+
+  background:
+    #f3f6f9;
+
+  color:
+    #17212b;
+}
+
+
+.header {
+
+  text-align: center;
+
+  padding:
+    35px 15px;
+
+  color:
+    white;
+
+  background:
+    linear-gradient(
+      135deg,
+      #0066b3,
+      #0099d8
+    );
+
+}
+
+
+.logo {
+
+  font-size:
+    30px;
+
+  font-weight:
+    800;
+
+}
+
+
+.header p {
+
+  margin-bottom:
+    0;
+
+  opacity:
+    0.9;
+
+}
+
+
+.container {
+
+  width:
+    92%;
+
+  max-width:
+    750px;
+
+  margin:
+    25px auto;
+
+}
+
+
+.date-box {
+
+  display:
+    flex;
+
+  align-items:
+    center;
+
+  gap:
+    15px;
+
+  padding:
+    20px;
+
+  background:
+    white;
+
+  border-radius:
+    16px;
+
+  box-shadow:
+    0 5px 18px
+    rgba(
+      0,
+      0,
+      0,
+      0.08
+    );
+
+}
+
+
+.date-box span {
+
+  font-size:
+    35px;
+
+}
+
+
+.date-box small {
+
+  color:
+    #667085;
+
+}
+
+
+.date-box h2 {
+
+  margin:
+    4px 0 0;
+
+}
+
+
+.answers-section {
+
+  margin-top:
+    22px;
+
+  padding:
+    25px;
+
+  background:
+    white;
+
+  border-radius:
+    16px;
+
+  box-shadow:
+    0 5px 18px
+    rgba(
+      0,
+      0,
+      0,
+      0.08
+    );
+
+}
+
+
+.answers-section h1 {
+
+  margin-top:
+    0;
+
+  text-align:
+    center;
+
+}
+
+
+.subtitle {
+
+  text-align:
+    center;
+
+  color:
+    #667085;
+
+}
+
+
+.answer-card {
+
+  display:
+    flex;
+
+  justify-content:
+    space-between;
+
+  align-items:
+    center;
+
+  gap:
+    15px;
+
+  margin:
+    14px 0;
+
+  padding:
+    18px;
+
+  background:
+    #f7fbff;
+
+  border:
+    1px solid
+    #dcecf8;
+
+  border-radius:
+    12px;
+
+}
+
+
+.question-number {
+
+  font-size:
+    13px;
+
+  color:
+    #667085;
+
+}
+
+
+.answer {
+
+  margin-top:
+    5px;
+
+  font-size:
+    18px;
+
+  font-weight:
+    700;
+
+  color:
+    #0066b3;
+
+}
+
+
+.copy-button {
+
+  border:
+    none;
+
+  padding:
+    9px 13px;
+
+  color:
+    white;
+
+  background:
+    #0066b3;
+
+  border-radius:
+    8px;
+
+  cursor:
+    pointer;
+
+}
+
+
+.copy-button:hover {
+
+  background:
+    #004f8c;
+
+}
+
+
+.ad-section {
+
+  margin:
+    25px 0;
+
+}
+
+
+.ad-label {
+
+  text-align:
+    center;
+
+  font-size:
+    11px;
+
+  color:
+    #7a8490;
+
+}
+
+
+.ad-box {
+
+  min-height:
+    100px;
+
+  display:
+    flex;
+
+  align-items:
+    center;
+
+  justify-content:
+    center;
+
+  color:
+    #7a8490;
+
+  background:
+    white;
+
+  border:
+    1px solid
+    #e2e8ee;
+
+  border-radius:
+    12px;
+
+}
+
+
+.notice {
+
+  padding:
+    16px;
+
+  background:
+    #fff8df;
+
+  border-radius:
+    12px;
+
+  color:
+    #66551a;
+
+}
+
+
+footer {
+
+  padding:
+    25px;
+
+  text-align:
+    center;
+
+  color:
+    #667085;
+
+}
+
+
+@media (
+  max-width: 500px
+) {
+
+  .logo {
+
+    font-size:
+      25px;
+
+  }
+
+
+  .answer-card {
+
+    align-items:
+      flex-start;
+
+  }
+
+
+  .copy-button {
+
+    font-size:
+      12px;
+
+  }
+
+}
